@@ -22,7 +22,7 @@ const styles = StyleSheet.create({
       margin: 24,
       fontSize: 18,
       fontWeight: 'bold',
-      TextAlign: 'center',
+      alignItems: 'center',
       color: '#1565C0',
     },
     image: {
