@@ -40,9 +40,7 @@ const [numero, setNumero] = useState(0);
         </TouchableOpacity>
 
         <View style={styles.containerB}>
-            <Text style={styles.titulo}> {numero}</Text>
         
-
         <TouchableOpacity
          style={styles.botaoP} 
          onPress={() => incremento()}
@@ -50,20 +48,21 @@ const [numero, setNumero] = useState(0);
         <Text style={styles.txtBotao}>+</Text>
         </TouchableOpacity>
 
+        <Text style={styles.titulob}> {numero}</Text>
+
         <TouchableOpacity
          style={styles.botaoM} 
          onPress={() => decrescimo()}
         >
         <Text style={styles.txtBotao}>-</Text>
         </TouchableOpacity>
-
+        </View>
         <TouchableOpacity
          style={styles.botaoZ} 
          onPress={() => zerar()}
         >
         <Text style={styles.txtBotao}>Zerar</Text>
         </TouchableOpacity>
-        </View>
         </View>
 
 

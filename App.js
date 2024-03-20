@@ -19,6 +19,6 @@ export default function App() {
         flex: 1,
         backgroundColor: '#000',
         justifyContent: 'center',
-        padding: 18,
+        padding: 20,
     },
  });
