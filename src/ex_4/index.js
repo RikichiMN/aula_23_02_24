@@ -28,7 +28,7 @@ export default function Exemplo4 () {
         onChangeText={(entrada) => setMens2(entrada)}
         value={mens2}
         />
-        <Pressable onPress={(mens2) => setMensTela(mens2)}>
+        <Pressable onPress={() => setMensTela(mens2)}>
             <Text>Exibir mensagem</Text>
         </Pressable>
         
